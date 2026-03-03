@@ -1,0 +1,1 @@
+Prompt: "Generate 5 momentum factor variants based on academic literature."

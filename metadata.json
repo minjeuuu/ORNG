@@ -1,0 +1,5 @@
+{
+  "name": "ORNG Quant Lab",
+  "description": "A zero-capital quant research system for building, testing, and evaluating trading strategies.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 antialiased font-sans;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full hover:bg-slate-600;
+}
+
+/* Utility classes for the dashboard look */
+.card {
+  @apply bg-slate-900 border border-slate-800 rounded-xl shadow-sm overflow-hidden;
+}
+
+.input-field {
+  @apply bg-slate-950 border border-slate-800 text-slate-200 rounded-lg px-3 py-2 text-sm font-mono focus:ring-1 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all;
+}
+
+.btn-primary {
+  @apply bg-orange-600 hover:bg-orange-500 text-white font-medium py-2 px-4 rounded-lg transition-colors text-sm shadow-lg shadow-orange-900/20;
+}
+
+.btn-secondary {
+  @apply bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium py-2 px-4 rounded-lg transition-colors text-sm border border-slate-700;
+}
+
+.section-title {
+  @apply text-xs font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2;
+}

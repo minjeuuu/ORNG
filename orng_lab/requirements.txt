@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+yfinance
+vectorbt
+backtrader
+torch
+jupyter
+pyyaml
+alpaca-trade-api
+seaborn
+tk

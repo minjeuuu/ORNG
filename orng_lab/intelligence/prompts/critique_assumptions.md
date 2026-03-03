@@ -1,0 +1,1 @@
+Prompt: "Critique the assumptions in this mean reversion strategy."
